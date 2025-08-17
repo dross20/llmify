@@ -12,7 +12,10 @@
 </div>
 
 ---
-Replace a function call with an LLM call.
+Replace a function call with LLM inference. Sends the source code and arguments to an LLM, which then predicts what the output should be.
+
+> [!CAUTION]
+> Please, for the love of all things good and holy, do not use this in any sort of production setting. This library should only be used for experimentation or prototyping.
 
 ## 📦 Installation
 ```bash
