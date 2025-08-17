@@ -61,7 +61,7 @@ class OpenAIBackend(InferenceBackend):
             self.client = OpenAI()
         except ImportError:
             raise ImportError(
-                "Using `GPTBackend` requires that the `openai` library is installed."
+                "Using `OpenAIBackend` requires that the `openai` library is installed."
                 "To install it, run the following command: `pip install openai`"
             )
         self.default_model = "gpt-4o"
