@@ -12,3 +12,37 @@
 </div>
 
 ---
+Replace a function call with an LLM call.
+
+## 📦 Installation
+```bash
+pip install git+https://github.com/dross20/llmify
+```
+## 💻 Quickstart
+To use `llmify`, simply apply it as a decorator to a function like so:
+```python
+from llmify import llmify
+
+@llmify()
+def add(a, b):
+  return a + b
+
+result = add(1, 2)
+print(result) # Output: 3 (probably)
+```
+To change the model used for inference, pass in a value for the `model` keyword argument:
+```python
+@llmify(model="gpt-5")
+def add(a, b):
+  ...
+```
+You can also use `llmify` on function stubs, so long as they have docstrings or comments:
+```python
+@llmify()
+def greet_user(name):
+  """Greet the user in a friendly manner."""
+  ...
+
+greeting = greet_user("Mortimer")
+print(greeting) # Output: "Hello, Mortimer!"
+```
