@@ -6,6 +6,8 @@
 <div align="center">
   
   <a href="https://www.python.org/">![Static Badge](https://img.shields.io/badge/python-3.9+-pink)</a>
+  <a href="https://pypi.org/project/llmify-decorator/">![llmify-decorator](https://img.shields.io/pypi/v/llmify-decorator?color=white
+)</a>
   <a href="https://github.com/dross20/llmify/blob/main/LICENSE">![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)</a>
   <a href="https://github.com/openai/openai-python">![OpenAI API](https://img.shields.io/badge/-OpenAI%20API-eee?style=flat-square&logo=openai&logoColor=412991)</a>
  
