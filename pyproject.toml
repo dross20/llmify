@@ -30,3 +30,6 @@ classifiers = [
 
 [project.urls]
 Repository = "https://github.com/dross20/llmify"
+
+[tool.hatch.build.targets.wheel]
+packages = ["llmify"]
