@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "llmify-decorator"
-version = "1.0.0"
+version = "v0.0.1"
 requires-python = ">=3.9"
 authors = [
     {name = "Drew Ross", email = "drewross@ku.edu"}
