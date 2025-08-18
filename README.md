@@ -19,7 +19,7 @@ Replace a function call with LLM inference. Sends the source code and arguments 
 
 ## 📦 Installation
 ```bash
-pip install git+https://github.com/dross20/llmify
+pip install llmify-decorator
 ```
 ## 💻 Quickstart
 To use `llmify`, simply apply it as a decorator to a function like so:
