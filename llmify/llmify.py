@@ -1,3 +1,5 @@
+"""Contains the decorators used to replace function calls with LLM inference."""
+
 from __future__ import annotations
 
 import inspect

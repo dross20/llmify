@@ -1,3 +1,5 @@
+"""Contains functions for guessing the output of a function using LLM inference."""
+
 from __future__ import annotations
 
 from typing import Any

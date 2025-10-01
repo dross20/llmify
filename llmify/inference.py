@@ -1,3 +1,5 @@
+"""Contains functions and classes related to LLM inference backends."""
+
 from abc import ABC, abstractmethod
 
 _default_backend = None
